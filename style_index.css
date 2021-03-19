@@ -1,0 +1,220 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+  scroll-behavior:smooth;
+}
+.contenedor{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+.header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:25px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+  position: sticky;
+  top:0;
+  width: 100%; 
+  
+}
+.header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  margin: 0 10px;
+}
+
+.header li{
+  float:left;
+  display:inline;
+  padding: 0 19px 0 19px;
+}
+.header #tittle{
+  float:left;
+}
+.header #tittle h1{
+  margin:0;
+  position:center;
+  margin-left:30px;
+  font-size: 260%;
+}
+.header nav{
+  float:right;
+  margin-top:10px;
+  margin-bottom:10px;
+  
+}
+.header .inicio a{
+	margin-left:;
+}
+.header .titulo, header .inicio a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+.header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+
+#portada{
+  max-height:400px;
+/* background: url('../imagen/portada.jpg') no-repeat; */ 
+/* IMAGEN GRIS*/
+  background: url('portada2.webp');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color:#ffffff;
+  text-shadow: 2px 2px 2px #000;
+  padding-top: 50px;
+  
+}
+#portada h4{
+  margin-top:40px;
+  font-size:55px;
+  margin-bottom:10px;
+  margin-bottom:10px;
+}
+
+#portada p{
+  font-size:20px;
+  margin-bottom:60px;
+} 
+
+
+#contacto {
+  padding:10px;
+  color:#ffffff;
+  background:#35424a;
+  height: 30%;
+  position: sticky;
+  top:0;
+  border-bottom:#e8491d 3px solid;
+}
+
+#contacto form {
+  margin-top:0px;
+  margin-bottom:0px;
+  
+}
+#contacto button[type="submit"]{
+  padding:4px;
+  height:35px;
+  width:250px;
+  display:block;
+  border-radius: 15px;
+  border:none;
+  width: 30%;
+  background: #878787;
+  color:#ffffff;
+  
+  }
+#contacto button[type="submit"] a{
+				 display: inline-block;
+				 padding: 10px;
+				 color: #fff;
+				 width: 95%;
+				 text-decoration: none;
+				 transition:0.2s;
+				 transition-delay: 0s;
+				 margin-top:-4.5px;
+				 margin-left: -4px;
+				 border-radius: 15px;
+				 
+}
+#neon:hover {
+				background:#00d5ff;
+				overflow: hidden;
+box-shadow: 0 0 10px #459dd0, 0 0 40px #459dd0,0 0 80px #459dd0;
+}
+
+leyend{
+				text-align:center;
+				position:center;
+				float:left;
+				width: 30%;
+				padding: 10px 0 0 18%;
+}
+
+#contacto form button a {
+				text-decoration: none;
+				font-size: 110%;
+}
+
+#contenido{
+				background: #e5e5e5; 
+				border-radius: 15px ;
+				width: 60%;
+				margin: 5% 0 5% 1%;
+				padding: 2% 5% 2% 5%;
+				text-align:center;
+			  position: auto;
+				overflow:scroll;
+				height: 200px;
+				float:left;
+}
+img {
+				float:right;
+				background-position:;
+				border-radius: 50%;
+			  margin: 5% 6% 2% 1%;
+				width: 20%;
+				max-height:150px;
+			  max-width: 150px;
+			  box-shadow:2px 2px 0px #000;
+}
+
+.instagram{
+				float:right;
+				background-position:;
+				border-radius: 15px;
+			  padding: 2%;
+				width: 20%;
+				margin:2px 5% 5% 4%;
+				border: 0px;
+				box-shadow:2px 2px 0px #000;
+				
+}
+.instagram a{
+				text-decoration:none;
+}
+.instagram:hover{
+				box-shadow:1px 1px 0px #000;
+}
+.extra{
+				display:inline-block;
+}
+
+.extra p{
+				display:block;
+				padding: 2%;
+				margin: 2%;
+}
+
+foother{
+  display: block;
+  background:#35424a;
+  color:#ffffff;
+  padding: 0% 0% 1% 10% ;
+  margin-bottom:0;
+  border-top:#e8491d 3px solid;
+  position: sticky; 
+  bottom:0; 
+  
+}
+
+#neon:hover{
+				background:#00d5ff;
+box-shadow: 0 0 10px #459dd0, 0 0 40px #459dd0,0 0 80px #459dd0;
+}

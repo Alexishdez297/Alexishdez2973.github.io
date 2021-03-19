@@ -1,0 +1,90 @@
+@import url(style_barra.css);
+
+*{
+				padding: 0;
+				
+				margin: 0;
+}
+main{
+				box-size:border-box;
+}
+header{
+				width: 100%;
+				background: #212121;
+				border-bottom:3px solid #848484;
+}
+
+nav ul {
+				display:flex;
+				list-style:none;
+				
+}
+nav ul li {
+				padding: 0 20px 10px 0;
+}
+nav ul li a{
+				text-decoration:none;
+				color: #fff;
+}
+
+.web{
+				color: #ff9d00;
+				
+}
+
+h1{
+				text-align:center;
+				padding: 40px 40px 10px 40px;
+				margin-top: 10px;
+}
+.nombre div {
+				width: 100%;
+}
+.nombre .img{
+      display: block;
+      text-align:center;
+				width: 30%;
+				margin-left:35%;
+				border-radius: 50% ;
+}
+
+.nombre .img img{
+				max-height: 120px;
+				max-width: 120px;
+				width: 100%;
+				border-radius: 50%;
+				margin-bottom: 20px;
+}
+
+.proyectos{
+				display:flex;
+				flex-wrap:wrap;
+				padding: 20px;
+				
+				justify-content:center;
+				items-align: middle;
+}
+.links img{
+				width: 90%;
+				padding: 5%;
+				max-width: 400px;
+				min-width: 300px;
+}
+.links h2{
+				font-size: 150%;
+				margin-left: 10px;
+				padding: 10px;
+				text-align:center;
+				margin: 0 20px 0 20px;
+				color: #000;
+				justify-content:center;
+				border:2px solid #7a7a7a;
+				border-radius: 5px;
+}
+.links h2:hover{
+				background: rgba(0,0,0,.3);
+}
+
+.links a{
+				text-decoration:none;
+}
